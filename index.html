@@ -3,52 +3,160 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Homepage</title>
+        <title>Kamohelo Matobako - Portfolio</title>
         <link rel="stylesheet" href="./styles.css" />
     </head>
     <body>
-        <header>
-            <h1>Welcome to My Sample Home Page</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img
+                        src="./Assets/my-headshot.jpg"
+                        alt="John Doe"
+                        class="headshot"
+                    />
+                </div>
+                <div class="hero-text">
+                    <h1>Kamohelo Matobako</h1>
+                    <p class="hero-subtitle">Full Stack Developer</p>
+                    <p class="hero-description">
+                        Passionate about creating beautiful, functional web
+                        experiences. I specialize in modern JavaScript
+                        frameworks and responsive design.
+                    </p>
+                    <div class="social-links">
+                        <a
+                            href="https://github.com/Kamocca1"
+                            class="social-link"
+                            aria-label="GitHub"
+                        >
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                                alt="GitHub"
+                            />
+                        </a>
+                        <a
+                            href="www.linkedin.com/in/kamohelo-matobako"
+                            class="social-link"
+                            aria-label="LinkedIn"
+                        >
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+                                alt="LinkedIn"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <main>
-            <section id="home">
-                <h2>Home Section</h2>
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>About Me</h2>
                 <p>
-                    This is some dummy content for the home section. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    I'm a passionate full-stack developer with experience
+                    building web applications. I love turning complex problems
+                    into simple, beautiful designs. When I'm not coding, you'll
+                    find me exploring new technologies or contributing to open
+                    source projects.
                 </p>
-            </section>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Node.js</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">Flask</span>
+                        <span class="skill">CSS/SASS</span>
+                        <span class="skill">MongoDB</span>
+                        <span class="skill">Postgres</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="about">
-                <h2>About Section</h2>
+        <!-- Projects Section -->
+        <section class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>E-Commerce Platform</h3>
+                        <p>
+                            A full-stack e-commerce solution built with React
+                            and Node.js
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Task Management App</h3>
+                        <p>
+                            A collaborative task management tool with real-time
+                            updates
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Weather Dashboard</h3>
+                        <p>
+                            A responsive weather app with location-based
+                            forecasts
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API Integration</span>
+                            <span>CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
                 <p>
-                    Here's some information about this sample page. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat.
+                    I'm always interested in new opportunities and
+                    collaborations.
                 </p>
-            </section>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img
+                            src="./Assets/email.svg"
+                            alt="Email"
+                            class="contact-icon"
+                        />
+                        <span>kamohelotmatobako@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img
+                            src="./Assets/phone.svg"
+                            alt="Phone"
+                            class="contact-icon"
+                        />
+                        <span>+27 (065) 870-1041</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="contact">
-                <h2>Contact Section</h2>
-                <p>
-                    Get in touch with us! Duis aute irure dolor in reprehenderit
-                    in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                </p>
-            </section>
-        </main>
-
+        <!-- Footer -->
         <footer>
-            <p>&copy; 2025 Sample Page. All rights reserved.</p>
+            <div class="container">
+                <p>&copy; 2025 Kamohelo Matobako. All rights reserved.</p>
+            </div>
         </footer>
     </body>
 </html>
